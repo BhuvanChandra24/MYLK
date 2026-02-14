@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import ProductCard from '../components/ProductCard';
-import { FaSearch, FaFilter } from 'react-icons/fa6';
+import { FaSearch, FaFilter } from 'react-icons/fa';
 import Coffe from '../assets/coffe.png';
 import badamMilkImg from '../assets/badammilk.png';
 import pistaMilkImg from '../assets/pistamilk.png';
 import roseMilkImg from '../assets/rosemilk.png';
-import roseIceCreamImg from '../assets/roseIcecream.png';
-import pistaIceCreamImg from '../assets/pistaIcecream.png';
-import badamIceCreamImg from '../assets/badamIcecream.png';
+import roseIceCreamImg from '../assets/roseicecream.png';
+import pistaIceCreamImg from '../assets/pistaicecream.png';
+import badamIceCreamImg from '../assets/badamicecream.png';
 
 const Items = () => {
   const [searchTerm, setSearchTerm] = useState('');

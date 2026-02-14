@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { FaBars, FaXmark, FaBagShopping, FaUser } from "react-icons/fa6";
-
+import { FaBars, FaTimes, FaShoppingBag, FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +54,7 @@ const Navbar = () => {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <button className="text-[#F7E9D6]">
-              <FaBagShopping size={18} />
+              <FaShoppingBag size={18} />
             </button>
 
             <Link
@@ -72,7 +71,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-[#F7E9D6]"
           >
-            {isOpen ? <FaXmark size={22} /> : <FaBars size={22} />}
+            {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
           </button>
         </div>
 

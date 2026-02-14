@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-coffee-50 text-coffee-900 font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-coffee-700 text-white px-6 py-3 rounded-full hover:bg-coffee-800 transition-all duration-300 text-sm font-semibold uppercase tracking-wide shadow-md hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-coffee-700 text-coffee-700 px-6 py-3 rounded-full hover:bg-coffee-700 hover:text-white transition-all duration-300 text-sm font-semibold uppercase tracking-wide;
+  }
+
+  .product-card {
+    @apply bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-coffee-100;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-coffee-800 mb-4 relative inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-1/2 h-1 bg-coffee-500 rounded-full;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-coffee-50 to-coffee-100;
+  }
+
+  .price-tag {
+    @apply text-2xl font-bold text-coffee-700 bg-coffee-100 inline-block px-4 py-2 rounded-full;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

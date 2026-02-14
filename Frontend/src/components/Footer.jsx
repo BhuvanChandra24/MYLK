@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaCoffee, FaHeart } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaMugSaucer, FaHeart } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 bg-[#E6D3C3] rounded-full flex items-center justify-center">
-              <FaCoffee className="text-[#3A2720] text-sm" />
+              <FaMugSaucer className="text-[#3A2720] text-sm" />
             </div>
             <div>
               <h3 className="text-lg font-semibold text-white">MYLK Co*</h3>

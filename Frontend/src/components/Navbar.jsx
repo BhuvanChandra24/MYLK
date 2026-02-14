@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { FaBars, FaTimes, FaShoppingBag, FaUser } from "react-icons/fa";
+import { FaBars, FaTimes, FaShoppingBag, FaUser } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ProductCard from '../components/ProductCard';
-import { FaSearch, FaFilter } from 'react-icons/fa';
+import { FaSearch, FaFilter } from 'react-icons/fa6';
 import Coffe from '../assets/coffe.png';
 import badamMilkImg from '../assets/badammilk.png';
 import pistaMilkImg from '../assets/pistamilk.png';

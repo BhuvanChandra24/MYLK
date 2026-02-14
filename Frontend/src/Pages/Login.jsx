@@ -8,7 +8,7 @@ import {
   FaFacebook,
   FaCoffee,
   FaLeaf,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);

@@ -7,7 +7,7 @@ import {
   FaTruck,
   FaArrowRight,
   FaQuoteRight,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 import { GiAlmond, GiRose, GiPeanut } from "react-icons/gi";
 
 import pistaMilkImg from "../assets/pistamilk.png";

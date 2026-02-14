@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { FaBars, FaTimes, FaShoppingBag, FaUser } from "react-icons/fa6";
+import { FaBars, FaTimes, FaBagShopping, FaUser } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <button className="text-[#F7E9D6]">
-              <FaShoppingBag size={18} />
+              <FaBagShopping size={18} />
             </button>
 
             <Link

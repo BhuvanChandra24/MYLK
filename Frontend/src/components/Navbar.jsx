@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { FaBars, FaTimes, FaBagShopping, FaUser } from "react-icons/fa6";
+import { FaBars, FaXmark, FaBagShopping, FaUser } from "react-icons/fa6";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-[#F7E9D6]"
           >
-            {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
+            {isOpen ? <FaXmark size={22} /> : <FaBars size={22} />}
           </button>
         </div>
 

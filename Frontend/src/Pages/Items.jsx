@@ -5,9 +5,9 @@ import Coffe from '../assets/coffe.png';
 import badamMilkImg from '../assets/badammilk.png';
 import pistaMilkImg from '../assets/pistamilk.png';
 import roseMilkImg from '../assets/rosemilk.png';
-import roseIceCreamImg from '../assets/roseicecream.png';
-import pistaIceCreamImg from '../assets/pistaicecream.png';
-import badamIceCreamImg from '../assets/badamicecream.png';
+import roseIceCreamImg from '../assets/roseIcecream.png';
+import pistaIceCreamImg from '../assets/pistaIcecream.png';
+import badamIceCreamImg from '../assets/badamIcecream.png';
 
 const Items = () => {
   const [searchTerm, setSearchTerm] = useState('');
